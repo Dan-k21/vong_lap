@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = +prompt("Nhập a: ");
+    let b = +prompt("Nhập b: ");
+    if (a < b) {
+        for (let i = a; i <= b; i++) {
+            if (i % 2 === 0) {
+                console.log(i)
+            }
+        }
+    }
+    if (a > b) {
+        for (let i = b; i <= a; i++) {
+            if (i % 2 === 0) {
+                console.log(i)
+            }
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = +prompt("Nhập a: ");
+    let b = +prompt("Nhập b: ");
+    let tich = 1;
+    if (a < b) {
+        for (let i = a; i <= b; i++) {
+            tich = tich * i;
+        }
+    }
+    if (a > b) {
+        for (let i = b; i <= a; i++) {
+            tich = tich * i;
+        }
+    }
+    console.log(tich)
+</script>
+</body>
+</html>
