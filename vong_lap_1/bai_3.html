@@ -5,6 +5,13 @@
     <title>Title</title>
 </head>
 <body>
-
+<div id="result"></div>
+<script>
+    let fibonacci = '';
+    for (let i = 0; i <= 20; i++) {
+        fibonacci = fibonacci + i + '<br>';
+        document.getElementById('result').innerHTML = fibonacci;
+    }
+</script>
 </body>
 </html>

@@ -5,6 +5,17 @@
     <title>Title</title>
 </head>
 <body>
-
+<script>
+    let tong = 0;
+    let number = 0;
+    for (let i = 0; ; i++) {
+        if (i % 7 === 0) {
+            tong += i;
+            number++;
+            if (number === 30) break;
+        }
+    }
+    alert(tong)
+</script>
 </body>
 </html>
